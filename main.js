@@ -39,16 +39,16 @@ function createCardElement(badeg, title, meta1, meta2, text) {
 
     let cardMetaListItem1 = document.createElement("li")
 
-    var link1 = document.createElement("a")
-    link1.setAttribute("href","#")
+    var link1 = document.createElement("div")
+    link1.setAttribute("style","margin: none;")
     link1.appendChild(document.createTextNode(meta1))
     cardMetaListItem1.appendChild(link1)
 
     let cardMetaListItem2 = document.createElement("li")
 
-    var link2 = document.createElement("a")
-    link2.setAttribute("href","#")
+    var link2 = document.createElement("div")
     link2.appendChild(document.createTextNode(meta2))
+    link2.setAttribute("style","margin: none;")
     cardMetaListItem2.appendChild(link2)
 
     let cardMainContent = document.createElement("p")
