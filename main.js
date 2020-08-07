@@ -22,6 +22,7 @@ function createCardElement(badeg, title, meta1, meta2, text) {
 
     let card = document.createElement("div")
     card.setAttribute("class","uk-card uk-card-default uk-width-1-1@m")
+    // card.setAttribute("uk-parallax","opacity: 0,1,1; y: 100,0,0;  viewport: 0.5;")
 
     let cardBody = document.createElement("div")
     cardBody.setAttribute("class", "uk-grid-small uk-card-body uk-flex-middle")

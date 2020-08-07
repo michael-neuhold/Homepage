@@ -39,10 +39,10 @@ data = {
     current: [
       {
         status: "ACTIVE",
-        name: "FH OÖ, Campus Hagenberg",
-        meta1: "Tutor",
-        meta2: "März 2020 - Jul. 2020",
-        content: "Betreuung und Unterstütung anderer Studenten im Gegenstand Software Projekt-Engineering"
+        name: "INFORMATICS",
+        meta1: "Intern",
+        meta2: "Aug. 2020 - Sept. 2020",
+        content: "Entwicklung an SAP Systemen (ABAP, Fiori)"
       },
       {
         status: "ACTIVE",
@@ -50,6 +50,14 @@ data = {
         meta1: "ÖH STV SE",
         meta2: "Jul. 2019 - heute",
         content: "Studiengangsvertreter Software Engineering, Ansprechpartner für Studenten, Organisation von Events"
+      },
+      {
+        status: "DONE",
+        statusText: "4 MONTHS",
+        name: "FH OÖ, Campus Hagenberg",
+        meta1: "Tutor",
+        meta2: "März 2020 - Jul. 2020",
+        content: "Betreuung und Unterstütung anderer Studenten im Gegenstand Software Projekt-Engineering"
       },
       {
         status: "DONE",
@@ -66,14 +74,6 @@ data = {
         meta1: "Intern",
         meta2: "Apr. 2018 - Jul. 2018",
         content: "Praktikant im Bereich Web-Development, Entwicklung einer Analyse-Applikation für Wordpress-Seiten"
-      },
-      {
-        status: "DONE",
-        statusText: "9 MONTHS",
-        name: "LKH Korneuburg",
-        meta1: "Zivildiener",
-        meta2: "Jul. 2017 - März 2018",
-        content: "Zivildienst im Landesklinikum Korneuburg"
       }
     ],
     older: [
