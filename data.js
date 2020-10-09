@@ -39,10 +39,17 @@ data = {
     current: [
       {
         status: "ACTIVE",
-        name: "INFORMATICS",
-        meta1: "Intern",
-        meta2: "Aug. 2020 - Sept. 2020",
-        content: "Entwicklung an SAP Systemen (ABAP, Fiori)"
+        name: "FH OÖ, Campus Hagenberg",
+        meta1: "Tutor",
+        meta2: "Okt. 2020 - heute",
+        content: "Softwareentwicklung C/C++"
+      },
+      {
+        status: "ACTIVE",
+        name: "FH OÖ, Campus Hagenberg",
+        meta1: "Tutor",
+        meta2: "Okt. 2020 - heute",
+        content: "Betreuung und Unterstütung anderer Studenten im Gegenstand Software Projekt-Engineering"
       },
       {
         status: "ACTIVE",
@@ -50,6 +57,14 @@ data = {
         meta1: "ÖH STV SE",
         meta2: "Jul. 2019 - heute",
         content: "Studiengangsvertreter Software Engineering, Ansprechpartner für Studenten, Organisation von Events"
+      },
+      {
+        status: "DONE",
+        statusText: "2 MONTHS",
+        name: "INFORMATICS",
+        meta1: "Intern",
+        meta2: "Aug. 2020 - Sept. 2020",
+        content: "Entwicklung an SAP Systemen (ABAP, Fiori)"
       },
       {
         status: "DONE",
