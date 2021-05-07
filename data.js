@@ -39,24 +39,47 @@ data = {
     current: [
       {
         status: "ACTIVE",
-        name: "FH OÖ, Campus Hagenberg",
-        meta1: "Tutor",
-        meta2: "Okt. 2020 - heute",
-        content: "Softwareentwicklung C/C++"
+        name: "Dynatrace",
+        meta1: "Intern",
+        meta2: "April 2021 - heute",
+        content: "Java Software Entwicklung"
       },
       {
         status: "ACTIVE",
         name: "FH OÖ, Campus Hagenberg",
         meta1: "Tutor",
-        meta2: "Okt. 2020 - heute",
-        content: "Betreuung und Unterstütung anderer Studenten im Gegenstand Software Projekt-Engineering"
+        meta2: "März 2021 - heute",
+        content: "Computergrafik und Bildverarbeitung"
+      },
+      {
+        status: "ACTIVE",
+        name: "FH OÖ, Campus Hagenberg",
+        meta1: "Tutor",
+        meta2: "März 2021 - heute",
+        content: "Semistrukturierte Daten"
       },
       {
         status: "ACTIVE",
         name: "FH OÖ, Campus Hagenberg",
         meta1: "ÖH STV SE",
         meta2: "Jul. 2019 - heute",
-        content: "Studiengangsvertreter Software Engineering, Ansprechpartner für Studenten, Organisation von Events"
+        content: "Studiengangsvertreter"
+      },
+      {
+        status: "DONE",
+        statusText: "5 MONTHS",
+        name: "FH OÖ, Campus Hagenberg",
+        meta1: "Tutor",
+        meta2: "Okt. 2020 - Feb. 2021",
+        content: "Softwareentwicklung C/C++"
+      },
+      {
+        status: "DONE",
+        statusText: "5 MONTHS",
+        name: "FH OÖ, Campus Hagenberg",
+        meta1: "Tutor",
+        meta2: "Okt. 2020 - Feb. 2021",
+        content: "Software Projekt-Engineering"
       },
       {
         status: "DONE",
@@ -64,15 +87,15 @@ data = {
         name: "INFORMATICS",
         meta1: "Intern",
         meta2: "Aug. 2020 - Sept. 2020",
-        content: "Entwicklung an SAP Systemen (ABAP, Fiori)"
+        content: "SAP Entwicklung (ABAP, Fiori)"
       },
       {
         status: "DONE",
-        statusText: "4 MONTHS",
+        statusText: "5 MONTHS",
         name: "FH OÖ, Campus Hagenberg",
         meta1: "Tutor",
         meta2: "März 2020 - Jul. 2020",
-        content: "Betreuung und Unterstütung anderer Studenten im Gegenstand Software Projekt-Engineering"
+        content: "Software Projekt-Engineering"
       },
       {
         status: "DONE",
@@ -80,7 +103,7 @@ data = {
         name: "Siemens",
         meta1: "Intern",
         meta2: "Aug. 2019 - Sept. 2019",
-        content: "Praktikant im Bereich Corporate Technology, Entwicklung einer Web-Applikation mit React JS"
+        content: "Web Development React JS"
       },
       {
         status: "DONE",
@@ -88,7 +111,7 @@ data = {
         name: "Web&Söhne",
         meta1: "Intern",
         meta2: "Apr. 2018 - Jul. 2018",
-        content: "Praktikant im Bereich Web-Development, Entwicklung einer Analyse-Applikation für Wordpress-Seiten"
+        content: "Web Development"
       }
     ],
     older: [

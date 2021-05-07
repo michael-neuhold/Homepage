@@ -21,7 +21,8 @@ function createCardElement(badeg, title, meta1, meta2, text) {
     let outerWrapper = document.createElement("div")
 
     let card = document.createElement("div")
-    card.setAttribute("class","uk-card uk-card-default uk-width-1-1@m")
+    card.setAttribute("class","glass2 uk-card uk-card-default uk-width-1-1@m")
+    card.setAttribute("data-tilt","")
     // card.setAttribute("uk-parallax","opacity: 0,1,1; y: 100,0,0;  viewport: 0.5;")
 
     let cardBody = document.createElement("div")
@@ -33,6 +34,7 @@ function createCardElement(badeg, title, meta1, meta2, text) {
 
     let cardHeaderH3 = document.createElement("h3")
     cardHeaderH3.setAttribute("class","uk-card-title uk-margin-remove-bottom")
+    cardHeaderH3.setAttribute("style","color: white;")
     cardHeaderH3.appendChild(document.createTextNode(title))
 
     let cardMetaList = document.createElement("ul")
@@ -41,7 +43,7 @@ function createCardElement(badeg, title, meta1, meta2, text) {
     let cardMetaListItem1 = document.createElement("li")
 
     var link1 = document.createElement("div")
-    link1.setAttribute("style","margin: none;")
+    link1.setAttribute("style","margin: none; color: white;")
     link1.appendChild(document.createTextNode(meta1))
     cardMetaListItem1.appendChild(link1)
 
@@ -49,10 +51,11 @@ function createCardElement(badeg, title, meta1, meta2, text) {
 
     var link2 = document.createElement("div")
     link2.appendChild(document.createTextNode(meta2))
-    link2.setAttribute("style","margin: none;")
+    link2.setAttribute("style","margin: none; color: white;")
     cardMetaListItem2.appendChild(link2)
 
     let cardMainContent = document.createElement("p")
+    cardMainContent.setAttribute("style", "color: white;")
     if(text != null) cardMainContent.appendChild(document.createTextNode(text))
 
     cardMetaList.appendChild(cardMetaListItem1)
@@ -75,7 +78,7 @@ function createMoreField(currentWrapper) {
     let outerWrapper = document.createElement("div")
 
     let card = document.createElement("div")
-    card.setAttribute("class","uk-card uk-card-default uk-width-1-1@m uk-card-hover")
+    card.setAttribute("class","glass2 uk-card uk-card-default uk-width-1-1@m uk-card-hover")
 
     let cardBody = document.createElement("div")
     cardBody.setAttribute("class","uk-grid-small uk-card-body uk-flex-middle")
@@ -90,6 +93,7 @@ function createMoreField(currentWrapper) {
     a.setAttribute("class","uk-link-heading")
     a.setAttribute("href","#moreWorkExperience")
     a.setAttribute("uk-toggle","")
+    a.setAttribute("style","color: white;")
     a.appendChild(document.createTextNode("mehr..."))
 
     h3.appendChild(a)
@@ -215,8 +219,8 @@ function initArticles() {
     })
 }
 
-initArticles()
-initEducationItems()
+//initArticles()
+//initEducationItems()
 initWorkExperienceItems()
 
 

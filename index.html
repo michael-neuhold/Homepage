@@ -13,46 +13,52 @@
     <!-- mobile view -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="newStyles.css">
+
 </head>
 <body>
 <!--<div class="uk-card uk-card-default uk-card-body" style="z-index: 980;" uk-sticky="bottom: #offset">Stick to the top</div>-->
-<div class="uk-section uk-section-middle">
-    <div class="uk-container" >
-        <div class="uk-card uk-card-default uk-width-1-1@m">
+<div class="uk-section uk-section-middle parallax">
+
+<!--
+    <h1 class="disable-select" style="margin: 40px; font-size: 20vw; left: 5vw; top: -5vw; color: rgb(100,100, 255); border-radius: 50%; position: absolute; font-weight: bolder">Michael</h1>
+    <h1 class="disable-select" style="margin: 40px; font-size: 20vw; right: 4vw; top: 12vw; color: rgb(100,100, 255); border-radius: 50%; position: absolute; font-weight: bolder">Neuhold</h1>
+-->
+    <!--<img style="top: -80px; color: lightgray; position: absolute; display: inline; font-weight: bolder" class="uk-comment-avatar" src="Michael_Neuhold_white_bg.png" width="600" alt="Michael Neuhold"> -->
+    <div class="uk-container">
+        <div class="uk-card uk-card-default uk-width-1-1@m glass" >
             <div class="uk-flex uk-flex-center@m uk-flex-right@l" style="padding: 30px 20px 0px 25px;">
                 <a href="https://www.linkedin.com/in/michael-neuhold-517312157"
-                   class="uk-icon-button uk-margin-small-right" uk-icon="linkedin"></a>
-                <a href="https://www.xing.com/profile/Michael_Neuhold11/cv" class="uk-icon-button uk-margin-small-right"
+                   class="uk-icon-button uk-margin-small-right icon-glass" uk-icon="linkedin"></a>
+                <a href="https://www.xing.com/profile/Michael_Neuhold11/cv" class="uk-icon-button uk-margin-small-right icon-glass"
                    uk-icon="xing"></a>
-                <a href="https://github.com/michael-neuhold" class="uk-icon-button uk-margin-small-right"
+                <a href="https://github.com/michael-neuhold" class="uk-icon-button uk-margin-small-right icon-glass"
                    uk-icon="github"></a>
-                <a href="https://www.facebook.com/michael.neuhold.754" class="uk-icon-button  uk-margin-small-right"
+                <a href="https://www.facebook.com/michael.neuhold.754" class="uk-icon-button  uk-margin-small-right icon-glass"
                    uk-icon="facebook"></a>
-                <a href="https://www.instagram.com/michi.neuhold" class="uk-icon-button uk-margin-small-right"
+                <a href="https://www.instagram.com/michi.neuhold" class="uk-icon-button uk-margin-small-right icon-glass"
                    uk-icon="instagram"></a>
             </div>
             <div class="uk-card-body">
                 <article class="uk-comment">
                     <header class="uk-comment-header uk-grid-medium uk-flex-middle text-center" uk-grid>
                         <div class="uk-width-auto">
-                            <img class="uk-comment-avatar" src="profil_blur.jpeg" width="200" alt="Michael Neuhold">
+                            <img style="border-radius: 50%" class="uk-comment-avatar" src="Michael_Neuhold_no_bg.png" width="400" alt="Michael Neuhold">
                         </div>
                         <div class="uk-width-expand">
-                            <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" href="#">Michael
+                            <h4 class="uk-comment-title uk-margin-remove"><a class="uk-link-reset" style="color: white;" href="#">Michael
                                 Neuhold</a></h4>
-                            <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top">
-                                <li><div>Software Engineering Student</div></li>
-                                <li><div>22</div></li>
+                            <ul class="uk-comment-meta uk-subnav uk-subnav-divider uk-margin-remove-top" >
+                                <li><div style="color: white;">Software Engineering Student</div></li>
+                                <li><div style="color: white;">22</div></li>
                             </ul>
                         </div>
                     </header>
                     <div class="uk-comment-body">
-                        <p>Hallo, </br>
-                            ich heiße Michael und bin ein leidenschaftlicher Software Developer. Ich kann mich für neue
-                            sowie bewährte Technologien begeistern und bin stets bestrebt meine selbstgesteckten Ziele zu
-                            erreichen.
-                            In meiner Freizeit treffe ich mich am liebsten mit Freunden und betreibe einige Sportarten wie zB.
-                            Laufen, Tennis und Skifahren. Bei Fragen bin ich so gut wie immer über diverse Kanäle erreichbar.
+                        <p style="color: white;">Hi, </br>
+                            My name is Michael and I am 22 years old. I am studying software engineering at the university of applied sciences in Hagenberg. 
+                            Besides my interests in new technologies and programming I enjoy my free time by meeting friends and doing sports. 
+                            Thereby going for a run and drinking a cup of coffee are my favorite ways to gather new motivation. 
                         </p>
                     </div>
                 </article>
@@ -61,38 +67,77 @@
     </div>
 </div>
 
+<!-- education -->
+<div class="uk-section uk-section-default uk-preserve-color" id="education">
+    <h1 id="bg-text" class="disable-select" style="margin: 40px 0px 40px 0px; font-size: 21vw; top: -50px; color: rgba(255,255, 255, 0.1); border-radius: 50%; position: absolute; font-weight: bolder">software developer</h1>
 
+    <div class="uk-container" style="padding: 30px;">
 
-
-<!-- news -->
-<div class="uk-section uk-section-muted uk-preserve-color">
-    <div class="uk-container" id="newsItems">
         <div class="uk-panel uk-margin-medium">
-            <h1 class="uk-heading-line uk-text-center"><span>Aktuelles</span></h1>
+            <h1 class="uk-heading-line uk-text-center"><span>Ausbildung</span></h1>
+        </div>
+
+         <div class="uk-grid-match uk-child-width-expand@m" uk-grid>
+
+             <div style="position: relative;" >
+                <div class="glass2 uk-card uk-card-default uk-width-1-1@m" data-tilt>
+                    <div class="uk-grid-small uk-card-body uk-flex-middle" uk-grid>
+                        <div><span class="uk-badge uk-label-success">ACTIVE</span></div>
+                        <div class="uk-width-expand">
+                            <h3 class="uk-card-title uk-margin-remove-bottom" style="color: white;">FH OÖ, Campus Hagenberg</h3>
+                            <ul class="uk-card-meta uk-subnav uk-subnav-divider">
+                                <li><a style="color: white;" href="#">Software Engineering, Bachelor</a></li>
+                                <li><a style="color: white;" href="#">Okt. 2018 - heute</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="position: relative;">
+                <div class="glass2 uk-card uk-card-default uk-width-1-1@m" data-tilt>
+                    <div class="uk-grid-small uk-card-body uk-flex-middle" uk-grid>
+                        <div><span class="uk-badge uk-label-warning">5 YEARS</span></div>
+                        <div class="uk-width-expand">
+                            <h3 class="uk-card-title uk-margin-remove-bottom" style="color: white;">HTL Hollabrunn</h3>
+                            <ul class="uk-card-meta uk-subnav uk-subnav-divider">
+                                <li><a style="color: white;" href="#">Elektronik und technische Informatik</a></li>
+                                <li><a style="color: white;" href="#">Sept. 2012 - Jun. 2017</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="position: relative;">
+                <div class="glass2 uk-card uk-card-default uk-width-1-1@m" data-tilt>
+                    <div class="uk-grid-small uk-card-body uk-flex-middle" uk-grid>
+                        <div><span class="uk-badge uk-label-warning">4 YEARS</span></div>
+                        <div class="uk-width-expand">
+                            <h3 class="uk-card-title uk-margin-remove-bottom" style="color: white;">Gymnasium Stockerau</h3>
+                            <ul class="uk-card-meta uk-subnav uk-subnav-divider">
+                                <li><a style="color: white;" href="#">BG/BRG - Informatik</a></li>
+                                <li><a style="color: white;" href="#">Sept. 2008 - Jun. 2012</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
-<!-- typography -->
-<div class="uk-section uk-section-small" style="background-color: black; padding: 20px 0px 0px 0px;">
-    <div class="uk-container uk-text-center">
-        <!--<div class=" uk-child-width-1-2@m" uk-grid>-->
-        <img src="profilTypography.png" uk-parallax="x: 100,0; opacity: 0.5,1; viewport: 0.4" width="500">
-        <!-- </div>-->
-    </div>
-</div>
-
 <!-- education -->
-<div class="uk-section uk-section-default uk-preserve-color" id="education">
+<!--<div class="uk-section uk-section-default uk-preserve-color" id="education" style="margin-top: 200px">
     <div class="uk-container" id="educationItems">
         <div class="uk-panel uk-margin-medium">
             <h1 class="uk-heading-line uk-text-center"><span>Ausbildung</span></h1>
         </div>
     </div>
-</div>
+</div>-->
 
 <!-- quote -->
-<div class="uk-height-middle uk-background-cover uk-section uk-section-primary uk-overflow-hidden uk-light uk-flex uk-flex-top" style="background-color: black">
+<div class="uk-height-middle uk-background-cover uk-section uk-section-primary uk-overflow-hidden uk-light uk-flex uk-flex-top parallax" style="background-color: transparent">
     <div class="uk-width-1-2@m uk-text-center uk-margin-auto uk-margin-auto-vertical">
         <h4 uk-parallax="opacity: 0,1,1; y: 100,0,0; x: -100,-100,0; scale: 0.5,1,1; viewport: 0.5;" style="margin: 0px;">"Everybody in this
             country should learn to program a computer, because it teaches you how to think" (Steve Jobs)</h4>
@@ -157,10 +202,10 @@
     </div>
 </div>
 
-<div class="uk-section uk-section-primary" style="background-color: black">
+<div class="uk-section uk-section-primary parallax" style="background-color: transparent">
     <div class="uk-child-width-expand@s uk-text-center" uk-grid>
         <div>
-            <p> &copy; Michael Neuhold | 2020 |
+            <p> &copy; Michael Neuhold | 2021 |
             <a class="uk-link-muted" href="impressum.html">Impressum</a></p>
         </div>
         <div>
@@ -182,7 +227,7 @@
 <!-- UIkit JS -->
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.5.4/dist/js/uikit-icons.min.js"></script>
-
+<script type="text/javascript" src="tilt.js"></script>
 <script src="data.js"></script>
 <script src="main.js"></script>
 
