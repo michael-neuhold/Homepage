@@ -18,11 +18,13 @@ function createOrangeBadge(text) {
 }
 
 function createCardElement(badeg, title, meta1, meta2, text) {
+
+    
     let outerWrapper = document.createElement("div")
 
     let card = document.createElement("div")
     card.setAttribute("class","glass2 uk-card uk-card-default uk-width-1-1@m")
-    card.setAttribute("data-tilt","")
+    card.setAttribute("data-tilt","data-tilt")
     // card.setAttribute("uk-parallax","opacity: 0,1,1; y: 100,0,0;  viewport: 0.5;")
 
     let cardBody = document.createElement("div")
